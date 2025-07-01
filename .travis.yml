@@ -3,7 +3,7 @@ language: generic
 dist: focal
 
 vm:
-  size: [large]
+  size: [gpu-medium]
 
 script:
   - echo "TEST"
