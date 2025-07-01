@@ -1,6 +1,6 @@
 vm:
   use: concurrent-plan-i1
-  size: gpu-medium
+  size: gpu-xlarge
 
 script:
   - echo "TEST"
