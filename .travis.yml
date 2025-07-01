@@ -2,8 +2,8 @@ os: linux
 language: generic
 dist: focal
 
-# vm:
-#   size:
+vm:
+  size: gpu-medium
 
 script:
   - echo "TEST"
