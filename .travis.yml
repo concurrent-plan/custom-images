@@ -3,8 +3,7 @@ language: generic
 dist: focal
 
 vm:
-  create:
-    name: concurrent-plan-i1
+  use: concurrent-plan-i1
 
 script:
   - echo "TEST"
