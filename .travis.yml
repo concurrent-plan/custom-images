@@ -3,7 +3,11 @@ language: generic
 dist: focal
 
 vm:
-  size: gpu-xlarge
+  create:
+    name: concurrent-plan-i2
 
 script:
-  - echo "TEST"
+  - echo "Creating custom file"
+  - sudo mkdir /my-custom-dir
+  - echo "Test custom image!" | sudo tee /my-custom-dir/my_custom_file.txt
+  - sudo cat /my-custom-dir/my_custom_file.txt
